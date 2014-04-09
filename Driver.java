@@ -1,6 +1,6 @@
 // Driver.java
 
-package fxml_tutorial;
+//package fxml;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,10 +8,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Driver {
+public class Driver extends Application {
 
-    public static void main(String[] a) {
-	
+    public static void main(String[] args) {
+	Application.launch(Driver.class, args);
     } // main
 
     @Override public void start(Stage stage) throws Exception {
